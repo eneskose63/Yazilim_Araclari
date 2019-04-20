@@ -1,5 +1,5 @@
 language : java
 sudo : false
-script  : "maven -f ornekmavenproje/pom.xml clean install"
+script  : "mvn -f ornekmavenproje/pom.xml clean install"
 jdk:
    - oraclejdk8
